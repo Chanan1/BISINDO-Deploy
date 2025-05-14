@@ -7,7 +7,7 @@ from keras.models import load_model
 from PIL import Image
 
 # Load model
-model = load_model("model.h5")  # Pastikan file ini ada di folder yang sama
+model = load_model("checkpoint.weights.h5")  # Pastikan file ini ada di folder yang sama
 
 # Load Mediapipe
 mp_hands = mp.solutions.hands
